@@ -127,10 +127,22 @@ body {
   background-image: url("/asset/images/children-reading-books-vector-922022.jpg");
   background-size: cover;
 }
-/* .container {
+ /* .container {
   position: absolute;
   text-align: center;
   color: rgb(90, 38, 38);
   width: 50%;
   height: 50%;
+}  */
+
+/* about us */
+/* body{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: fit-content;
 } */
+.img{
+  border-image: 5px;
+  height: 200px;
+  width: 200px;
+}
