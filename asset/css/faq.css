@@ -1,0 +1,125 @@
+body {
+    background-image: url(../images/boy-wire-frame-glasses.jpg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+
+
+}
+
+.form {
+  padding-top: 10%;
+  padding-left: 40%; 
+  padding-right: 50%;
+}
+.navbar {
+  background: white;
+  padding-bottom: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 6px;
+}
+.logo-image{
+  width: 200px;
+  height: 70px;
+  /* border-radius: 50%; */
+  overflow: hidden;
+  margin-top: -15px;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+  /* The dropdown container */
+.nav-item {
+  float: left;
+  overflow: hidden;
+}  
+/* Dropdown button */
+.nav-item .nav-link {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Dropdown content (hidden by default) */
+.navbarDropdown {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 50px;
+}
+/* Links inside the dropdown */
+.nav-item a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.nav-item a:hover {
+  background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+.nav-item:hover .navbarDropdown {
+  display: block;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+  position: relative; 
+  text-align: center
+ }
+.footermenu{
+  text-align: left;
+}
